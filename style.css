@@ -1,0 +1,18 @@
+.font {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    background-color: tan; 
+}
+
+.title {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.list {
+    font-size: 24px;
+    color: cornflowerblue;
+    color: white;
+}
+
+
