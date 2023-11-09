@@ -1,18 +1,37 @@
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  
+
 .font {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: white;
     background-color: tan; 
 }
 
-.title {
+h1 {
     font-size: 32px;
     font-weight: bold;
 }
 
-.list {
+ul {
     font-size: 24px;
     color: cornflowerblue;
     color: white;
+    list-style: none;
+}
+
+li {
+    display: inline;
+    margin: 10px;
+    padding: 10px;
+    background-color: whitesmoke;
+    border: 1px solid black;
 }
 
 
