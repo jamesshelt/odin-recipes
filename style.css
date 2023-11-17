@@ -7,31 +7,38 @@ html {
     box-sizing: inherit;
   }
   
-
 .font {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: white;
-    background-color: tan; 
 }
 
 h1 {
-    font-size: 32px;
+    font-size: 40px;
     font-weight: bold;
+    margin: 32px auto;
+    width: 800px;
+    text-align: center;
+    background-color: tan;
+    padding: 20px;
 }
 
-ul {
+button {
+    /* Default button styles */
+    background-color: #3498db; /* Default background color */
+    color: #fff; /* Default text color */
+    padding: 10px 20px; /* Adjust padding as needed */
+    border: none; /* Remove default button border */
+    cursor: pointer; /* Add pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Add smooth transition for color change */
+    margin: 12px auto;
+    width: 300px;
+    text-align: center;
     font-size: 24px;
-    color: cornflowerblue;
-    color: white;
-    list-style: none;
-}
-
-li {
-    display: inline;
-    margin: 10px;
-    padding: 10px;
-    background-color: whitesmoke;
-    border: 1px solid black;
-}
-
-
+    display: block;
+    
+  }
+  
+  button:hover {
+    /* Button styles on hover */
+    background-color: #2980b9; /* New background color on hover */
+  }
+    
